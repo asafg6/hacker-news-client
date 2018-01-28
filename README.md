@@ -7,9 +7,11 @@ A Hacker News Client built with React and Bootstrap 4.
 
 *Requires npm*
 
-> git clone https://github.com/asafg6/hacker-news-client.git
-> cd hacker-news-client
-> npm install
-> npm start
+```shell
+git clone https://github.com/asafg6/hacker-news-client.git
+cd hacker-news-client
+npm install
+npm start
+```
 
 
