@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Coustard|Raleway" rel="stylesheet">
 
+
   </head>
   <body>
     <noscript>
@@ -22,13 +23,12 @@
     <script>
 
       if ('serviceWorker' in navigator) {
+
+        navigator.serviceWorker.register('/service-worker.js')
   
-       navigator.serviceWorker.register('/sw.js')
-  
-        .then(() => console.log('service worker installed'))
+        .then(() => console.log('service worker 2 installed'))
   
         .catch(err => console.error('Error', err));
-  
     }
   
   </script>
